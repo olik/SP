@@ -1,0 +1,7 @@
+// {comment}
+protected:
+	{type} {name};
+public:
+	{type} Get{Name}() const { return {name};}
+	void Set{Name}(const {type} _{name}) { {name} = _{name}; }
+//
